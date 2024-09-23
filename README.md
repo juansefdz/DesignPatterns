@@ -1,2 +1,2 @@
-# patterns_design
+# Design Patterns
 design pattern study repository
