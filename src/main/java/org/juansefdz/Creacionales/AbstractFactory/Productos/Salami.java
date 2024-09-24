@@ -1,18 +1,17 @@
-package org.juansefdz.Creacionales.AbstractFactory.classes.Productos;
+package org.juansefdz.Creacionales.AbstractFactory.Productos;
 
 import org.juansefdz.Creacionales.AbstractFactory.classes.ProductoPizza;
 
-public class TresQuesos extends ProductoPizza {
+public class Salami extends ProductoPizza {
 
-    public TresQuesos() {
+    public Salami() {
 
         super();
-        this.nombrePizza = "TresQuesos";
-        this.tipoMasa = "Masa extra gruesa";
-        this.tipoSalsa = "Salsa vechamel";
+        this.nombrePizza = "Salami";
+        this.tipoMasa = "Masa gruesa";
+        this.tipoSalsa = "Salsa napolitana";
         this.Ingredientes.add("Queso cheddar");
-        this.Ingredientes.add("Queso mozzarella");
-        this.Ingredientes.add("Queso parmesano");
+        this.Ingredientes.add("Salami");
     }
 
     @Override
@@ -28,10 +27,8 @@ public class TresQuesos extends ProductoPizza {
 
     @Override
     public String getNombrePizza() {
-       System.out.println("La pizza es: " + this.nombrePizza);
+      System.out.println("La pizza es: " + this.nombrePizza);
         return this.nombrePizza;
     }
-
-    
 
 }

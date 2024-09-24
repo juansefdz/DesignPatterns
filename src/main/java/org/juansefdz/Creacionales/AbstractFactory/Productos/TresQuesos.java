@@ -1,19 +1,18 @@
-package org.juansefdz.Creacionales.AbstractFactory.classes.Productos;
+package org.juansefdz.Creacionales.AbstractFactory.Productos;
 
 import org.juansefdz.Creacionales.AbstractFactory.classes.ProductoPizza;
 
-public class Vegetariana extends ProductoPizza {
+public class TresQuesos extends ProductoPizza {
 
-    public Vegetariana() {
+    public TresQuesos() {
 
         super();
-        this.nombrePizza = "Vegetariana";
-        this.tipoMasa = "Masa delgada";
-        this.tipoSalsa = "Salsa napolitana";
+        this.nombrePizza = "TresQuesos";
+        this.tipoMasa = "Masa extra gruesa";
+        this.tipoSalsa = "Salsa vechamel";
         this.Ingredientes.add("Queso cheddar");
-        this.Ingredientes.add("Tomate secos");
-        this.Ingredientes.add("Aceitunas");
-        this.Ingredientes.add("Pimientos asados");
+        this.Ingredientes.add("Queso mozzarella");
+        this.Ingredientes.add("Queso parmesano");
     }
 
     @Override
@@ -33,5 +32,6 @@ public class Vegetariana extends ProductoPizza {
         return this.nombrePizza;
     }
 
-   
+    
+
 }

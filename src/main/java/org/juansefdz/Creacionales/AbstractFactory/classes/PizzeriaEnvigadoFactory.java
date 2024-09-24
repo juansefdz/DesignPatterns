@@ -1,7 +1,7 @@
 package org.juansefdz.Creacionales.AbstractFactory.classes;
 
-import org.juansefdz.Creacionales.AbstractFactory.classes.Productos.TresQuesos;
-import org.juansefdz.Creacionales.AbstractFactory.classes.Productos.Vegetariana;
+import org.juansefdz.Creacionales.AbstractFactory.Productos.TresQuesos;
+import org.juansefdz.Creacionales.AbstractFactory.Productos.Vegetariana;
 
 public class PizzeriaEnvigadoFactory extends PizzeriaAbstractFactory {
 

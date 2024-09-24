@@ -1,8 +1,8 @@
 package org.juansefdz.Creacionales.AbstractFactory.classes;
 
-import org.juansefdz.Creacionales.AbstractFactory.classes.Productos.Salami;
-import org.juansefdz.Creacionales.AbstractFactory.classes.Productos.TresQuesos;
-import org.juansefdz.Creacionales.AbstractFactory.classes.Productos.Vegetariana;
+import org.juansefdz.Creacionales.AbstractFactory.Productos.Salami;
+import org.juansefdz.Creacionales.AbstractFactory.Productos.TresQuesos;
+import org.juansefdz.Creacionales.AbstractFactory.Productos.Vegetariana;
 
 public class PizzeriaMedellinFactory extends PizzeriaAbstractFactory {
 
