@@ -1,8 +1,8 @@
 package org.juansefdz;
 
-import org.juansefdz.Creacionales.Factory.FabricaChasis;
 import org.juansefdz.Creacionales.Factory.FabricaCreacionVehiculo;
-import org.juansefdz.Creacionales.Factory.FabricaMotor;
+import org.juansefdz.Creacionales.Factory.classes.FabricaChasis;
+import org.juansefdz.Creacionales.Factory.classes.FabricaMotor;
 import org.juansefdz.Creacionales.Singleton.Singleton;
 
 public class Main {
