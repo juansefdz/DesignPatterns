@@ -4,6 +4,8 @@ import org.juansefdz.Creacionales.AbstractFactory.classes.PizzeriaAbstractFactor
 import org.juansefdz.Creacionales.AbstractFactory.classes.PizzeriaEnvigadoFactory;
 import org.juansefdz.Creacionales.AbstractFactory.classes.PizzeriaMedellinFactory;
 import org.juansefdz.Creacionales.AbstractFactory.classes.ProductoPizza;
+import org.juansefdz.Creacionales.Builder.House;
+import org.juansefdz.Creacionales.Builder.HouseBuilder;
 import org.juansefdz.Creacionales.Factory.FabricaCreacionVehiculo;
 import org.juansefdz.Creacionales.Factory.classes.FabricaChasis;
 import org.juansefdz.Creacionales.Factory.classes.FabricaMotor;
@@ -59,5 +61,22 @@ public class Main {
         ProductoPizza pizza2 = pizzeriaEnvigado.ordenarPizza("Vegetariana");
         System.out.println("En Envigado se ha ordenado la pizza: " + pizza2.getNombrePizza());
 
+        System.out.println
+        ("--------------------------------------------------");
+
+        // BUILDER
+        System.out.println("--------------------------------------------------");
+
+        System.out.println("BUILDER");
+        House house = new HouseBuilder("CONCRETO", "ACERO", "TEJA", 3, 2)
+        .setGarage(true)
+        .setSwimmingPool(true)
+        .setInterior("MODERNO")
+        .build();
+
+        System.out.println("La casa solicitada quedó con las siguientes especificaciones:  "+house);
+
     }
+
+    
 }
